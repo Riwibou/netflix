@@ -1,0 +1,33 @@
+header img {
+  height: 300px;
+  width: 300px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.container {
+  margin: 0 0 0 50px;
+  margin-bottom: 40px;
+}
+
+.image-line {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.image-line .image-item {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
